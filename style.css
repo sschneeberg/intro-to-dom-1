@@ -1,31 +1,36 @@
 body {
-  background: lightgreen;
+    background: lightgreen;
 }
 
 h1 {
-  font-size: 4em;
-  text-align: center;
+    font-size: 4em;
+    text-align: center;
 }
 
 section {
-  border: 2px solid black;
-  display: flex;
-  justify-content: center;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
 }
 
 .animal {
-  padding: 1em;
-  margin: 1em;
-  display: flex;
-  flex-direction: column;
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
 }
 
 img {
-  height: 200px;
-  padding: 2em;
+    height: 200px;
+    padding: 2em;
 }
 
 label {
-  text-align: center;
+    text-align: center;
 }
 
+.fancy-label {
+    text-decoration: underline;
+    color: darkgreen;
+    font-size: 2em;
+}
